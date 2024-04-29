@@ -1,13 +1,17 @@
 import "./App.css";
 //import Greeting from "./Greeting";
 //import Welcome from "./Welcome";
-import Section from "./Section";
+// import Section from "./Section";
+import MyComponent from "./MyComponent";
 
 function App() {
   return (
     <>
-      <Section title="제목" content="내용" />
-      <Section title="스포츠" content="프로야구 상승팀 KIA" />
+      <MyComponent />
+      <MyComponent name="박상원" age={25} />
+      <MyComponent>
+        <h2>여기는 children 공간!</h2>
+      </MyComponent>
     </>
   );
 }
