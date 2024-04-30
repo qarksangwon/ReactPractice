@@ -10,6 +10,7 @@ const Table = () => {
   const [mapData, setMapData] = useState("");
 
   useEffect(() => {
+    // 서버 통신 구간, 즉 data를 원래 이 위치에서 가져오는것
     setMapData(data);
   }, []);
 
