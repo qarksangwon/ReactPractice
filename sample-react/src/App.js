@@ -4,12 +4,13 @@ import "./App.css";
 // import Section from "./Section";
 // import MyComponent from "./MyComponent";
 // import Say from "./Say";
-import Clock from "./Clock";
+// import Clock from "./Clock";
+import EventPractice from "./EventPractice";
 
 function App() {
   return (
     <>
-      <Clock />
+      <EventPractice />
     </>
   );
 }
