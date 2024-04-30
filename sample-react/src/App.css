@@ -1,10 +1,7 @@
 .App {
   text-align: center;
 }
-.title-name {
-  background-color: royalblue;
-  color: white;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title-name {
+  background-color: royalblue;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ccc;
 }

@@ -6,12 +6,14 @@ import "./App.css";
 // import Say from "./Say";
 // import Clock from "./Clock";
 // import EventPractice from "./EventPractice";
-import FruitSelect from "./FruitSelect";
+// import FruitSelect from "./FruitSelect";
+// import Radio from "./Radio";
+import Table from "./Table";
 
 function App() {
   return (
     <>
-      <FruitSelect />
+      <Table />
     </>
   );
 }
