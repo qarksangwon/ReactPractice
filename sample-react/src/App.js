@@ -5,12 +5,13 @@ import "./App.css";
 // import MyComponent from "./MyComponent";
 // import Say from "./Say";
 // import Clock from "./Clock";
-import EventPractice from "./EventPractice";
+// import EventPractice from "./EventPractice";
+import FruitSelect from "./FruitSelect";
 
 function App() {
   return (
     <>
-      <EventPractice />
+      <FruitSelect />
     </>
   );
 }
