@@ -42,36 +42,42 @@ const HookPractice = () => {
           name="name"
           onChange={onChange}
         />
+        <br />
         <input
           type="text"
           placeholder="직책을 입력하세요"
           name="position"
           onChange={onChange}
         />
+        <br />
         <input
           type="text"
           placeholder="회사명을 입력하세요"
           name="company"
           onChange={onChange}
         />
+        <br />
         <input
           type="text"
           placeholder="주소를 입력하세요"
           name="addr"
           onChange={onChange}
         />
+        <br />
         <input
           type="text"
           placeholder="이메일을 입력하세요"
           name="email"
           onChange={onChange}
         />
+        <br />
         <input
           type="text"
           placeholder="전화번호를 입력하세요"
           name="tel"
           onChange={onChange}
         />
+        <br />
         <button onClick={btnClick}>제출</button>
         {show && <SetInput />}
       </div>
