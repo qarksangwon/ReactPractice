@@ -9,12 +9,14 @@ import "./App.css";
 // import FruitSelect from "./FruitSelect";
 // import Radio from "./Radio";
 // import Table from "./Table";
-import UserList from "./UserList";
+// import UserList from "./UserList";
+// import MapTest from "./MapTest";
+import IterationSample from "./IterationSample";
 
 function App() {
   return (
     <>
-      <UserList />
+      <IterationSample />
     </>
   );
 }
