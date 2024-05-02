@@ -8,12 +8,13 @@ import "./App.css";
 // import EventPractice from "./EventPractice";
 // import FruitSelect from "./FruitSelect";
 // import Radio from "./Radio";
-import Table from "./Table";
+// import Table from "./Table";
+import UserList from "./UserList";
 
 function App() {
   return (
     <>
-      <Table />
+      <UserList />
     </>
   );
 }
