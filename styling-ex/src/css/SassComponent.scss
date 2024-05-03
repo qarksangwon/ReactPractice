@@ -1,0 +1,44 @@
+@import "../styles/utils.scss";
+// SassComponent에 적용
+.SassComponent {
+  display: flex;
+  // SassComponent의 box에 적용
+  .box {
+    background-color: $red;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    // & 는 상위(.box)를 가리킨다.
+    &.red {
+      background: $red;
+      @include square(1);
+    }
+    &.orange {
+      background: $orange;
+      @include square(2);
+    }
+    &.yellow {
+      background: $yellow;
+      @include square(3);
+    }
+    &.green {
+      background: $green;
+      @include square(4);
+    }
+    &.blue {
+      background: $blue;
+      @include square(5);
+    }
+    &.indigo {
+      background: $indigo;
+      @include square(6);
+    }
+    &.violet {
+      background: $violet;
+      @include square(7);
+    }
+    &:hover {
+      // .box에 마우스를 올렸을 때
+      background: black;
+    }
+  }
+}
