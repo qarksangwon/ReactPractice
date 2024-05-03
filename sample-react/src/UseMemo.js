@@ -12,6 +12,7 @@ const Average = () => {
   const [number, setNumber] = useState("");
   const onChange = (e) => setNumber(e.target.value);
   const onInsert = (e) => {
+    console.log("onInsert 실행");
     const nextList = list.concat(parseInt(number));
     setList(nextList);
     setNumber("");

@@ -1,5 +1,5 @@
 import "./App.css";
-import Average from "./UseMemo";
+import Average from "./UseCallback";
 
 function App() {
   return (
