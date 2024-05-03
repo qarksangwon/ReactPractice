@@ -1,10 +1,10 @@
 import "./App.css";
-import Counter from "./Reducer";
+import Average from "./UseMemo";
 
 function App() {
   return (
     <>
-      <Counter />
+      <Average />
     </>
   );
 }
