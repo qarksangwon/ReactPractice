@@ -1,11 +1,10 @@
 import "./App.css";
-import ExComponent from "./useRef2";
+import Counter from "./Reducer";
 
 function App() {
   return (
     <>
-      <ExComponent />
-      <ExComponent />
+      <Counter />
     </>
   );
 }
