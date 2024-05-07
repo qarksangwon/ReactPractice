@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation, Navigate } from "react-router-dom";
 
 const About = () => {
   const location = useLocation();
+  const id = localStorage.getItem("ID");
+  if (id !== "psw6291") {
+    return <Navigate to="/Login" replace={true}></Navigate>;
+  }
   return (
     <div>
       <h1>소개</h1>
