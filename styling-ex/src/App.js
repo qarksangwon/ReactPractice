@@ -1,9 +1,9 @@
-import StyledComponent from "./StyledComponents";
+import StyledComponent2 from "./StyledComponentsEx";
 
 function App() {
   return (
     <>
-      <StyledComponent />
+      <StyledComponent2 />
     </>
   );
 }
