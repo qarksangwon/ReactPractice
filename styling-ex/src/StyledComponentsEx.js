@@ -1,6 +1,11 @@
 import { useState } from "react";
 import styled, { css } from "styled-components";
 
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 const Button = styled.button`
   border: 0px;
   padding: 0px;
@@ -26,7 +31,7 @@ const StyledComponent2 = () => {
   };
   return (
     <>
-      <div>
+      <Container>
         <Button color="green" onClick={() => changeColor("green")}>
           Green
         </Button>
@@ -36,8 +41,10 @@ const StyledComponent2 = () => {
         <Button color="purple" onClick={() => changeColor("purple")}>
           Purple
         </Button>
-      </div>
-      <Div color={color}></Div>
+      </Container>
+      <Container>
+        <Div color={color}></Div>
+      </Container>
     </>
   );
 };
