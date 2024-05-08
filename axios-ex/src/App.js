@@ -1,9 +1,9 @@
-import NewsList from "./components/NewsList";
+import News from "./components/News";
 
 function App() {
   return (
     <>
-      <NewsList />
+      <News />
     </>
   );
 }
